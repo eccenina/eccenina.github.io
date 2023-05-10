@@ -217,7 +217,8 @@ font-family: 'League Spartan', sans-serif;
 
 @font-face {
     font-family: 'Barabara';
-    src: url(./fonts/BARABARA-final.otf);
+    font-style: normal;
+    src: url(./fonts/BARABARA-final.otf) format('opentype');
 }
 
 /* boxes */
