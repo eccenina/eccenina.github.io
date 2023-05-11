@@ -656,6 +656,8 @@ iframe {
     iframe {
         border-radius: 25px;
         border: none;
+        width: 812px;
+        height: 375px;
     }
     .box h3 {
         font-size: 30px;
