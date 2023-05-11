@@ -5,7 +5,6 @@
     scrollbar-width: none;  /* Firefox */
 }
 body{
-    zoom: 80%;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -163,6 +162,17 @@ font-family: 'League Spartan', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.embed-vid{
+    display: flex
+}
+.embed-vid iframe{
+    position: relative;
+    top:0;
+    left:0;
+    width: 640px;
+    height: 360px;
+    margin-right: 30px;
+}
 .bgpic1 h1{
     text-align: center;
     color: white;
@@ -180,9 +190,8 @@ font-family: 'League Spartan', sans-serif;
 }
 .bgpic1-content{
     display: flex;
-    margin: 10px;
+    justify-content: center;
     align-items: center;
-    margin-left: 30px;
 }
 .bgpic1-content ul li{
     justify-content: center;
@@ -275,11 +284,6 @@ iframe {
     text-align: justify;
 }
 
-/* embed vid */
-.embed-vid{
-    justify-content: center;
-    align-items: center;
-}
 /* footer */
 
 .footer{
@@ -555,6 +559,14 @@ iframe {
     
     
     */
+
+    /* embed vid */
+    .embed-vid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* bg pics */
     .bgpic1{
         letter-spacing: 2px;
@@ -590,6 +602,7 @@ iframe {
         display: flex;
         align-items: center;
         justify-content:center;
+        margin-top: 7%;
     }
     .bgpic1-content ul li{
         justify-content: center;
@@ -668,14 +681,7 @@ iframe {
         text-align: justify;
     }
     
-    /* embed vid */
-    .embed-vid{
-        width: 50%;
-        height: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
     /* footer */
     
     .footer{
