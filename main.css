@@ -362,6 +362,7 @@ iframe {
 @media screen and (max-width: 600px) {
     html, body{
         width: 100%;
+        overflow-x: hidden;
     }
     
     header{
@@ -675,12 +676,13 @@ iframe {
     /* footer */
     
     .footer{
+        padding: 30px 0 30px 0;
         background-color: #085589;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        width: 100%
+        width: 100%;
     }
     .footer-imgs img{
         height: 50px
