@@ -656,8 +656,8 @@ iframe {
     iframe {
         border-radius: 25px;
         border: none;
-        width: 812px;
-        height: 375px;
+        width: 400px;
+        height: 225px;
     }
     .box h3 {
         font-size: 30px;
@@ -672,6 +672,7 @@ iframe {
     
     /* embed vid */
     .embed-vid{
+        display: flex;
         justify-content: center;
         align-items: center;
     }
