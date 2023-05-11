@@ -161,7 +161,10 @@ font-family: 'League Spartan', sans-serif;
 .bgpic1 h1{
     text-align: center;
     color: white;
+    font-size: 65px;
+    font-family: 'Fjalla One', sans-serif;
 }
+.bgpic1{}
 .bgpic1 ul{
     display: flex;
 }
@@ -298,7 +301,7 @@ iframe {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1000px) {
     html, body{
         min-zoom: 100%;
         width: 100%;
