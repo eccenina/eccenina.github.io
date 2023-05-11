@@ -361,7 +361,6 @@ iframe {
   
 @media screen and (max-width: 600px) {
     html, body{
-        min-zoom: 100%;
         min-width: 100%;
         width: 100%;
         overflow-x: hidden;
