@@ -358,7 +358,6 @@ iframe {
   
 @media screen and (max-width: 600px) {
     html, body{
-        min-width: 100%;
         width: 100%;
     }
     
