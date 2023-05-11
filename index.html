@@ -13,12 +13,10 @@
     <script>
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content 
-
+        */
         function myFunction() {
           document.getElementById("myDropdown").classList.toggle("show");
         }
-
-        */
 
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(e) {
@@ -33,7 +31,83 @@
 
     </script>
     <body>
+        
         <header>
+        <div class="sidenavcont">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="dropdown" style="border-radius: 10px;">
+                    <button class="dropbtn" onclick="myFunction()">The City
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./pages/TheCity/history.html">History</a>
+                        <a href="./pages/TheCity/geography.html">Geography</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown" style="border-radius: 10px">
+                    <button class="dropbtn" onclick="myFunction()">Governance
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./pages/Governance/cityofficials.html">City Officials</a>
+                        <a href="./pages/Governance/citizen.html">Citizen's Charter</a>
+                        <a href="./pages/Governance/vmc.html">Vision, Mission, and Core Values</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" style="border-radius: 10px">
+                    <button class="dropbtn" onclick="myFunction()">Tourism
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./pages/Tourism/attraction.html">Attractions</a>
+                        <a href="./pages/Tourism/industries.html">Industries</a>
+                        <a href="./pages/Tourism/localeats.html">Local Eats</a>
+                        <a href="./pages/Tourism/business.html">Business Application</a>
+                        <a href="./pages/Tourism/touristmap.html">Tourist Map</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" style="border-radius: 10px">
+                    <button class="dropbtn" onclick="myFunction()">News
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./pages/News/localnews.html">Local News</a>
+                        <a href="./pages/News/events.html">Events</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" style="border-radius: 10px" >
+                    <button class="dropbtn" onclick="myFunction()">Contacts
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./pages/Contacts/hotlines.html">Hotlines</a>
+                    </div>
+                </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <script>
+                function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                }
+                
+                function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+        </div>
+        
+
+
             <div class="header">
                 <div class="header-logo">
                     <a href="index.html"><img src="https://archive.org/download/vigan/resources/viganSeal.png" alt="viganSeal"></a>
@@ -119,8 +193,6 @@
                 </div>
                 
             </ul>
-            
-            
         </div>
         <div class="content1" style="font-family: 'Fjalla One', sans-serif;">
             <ul>
@@ -129,7 +201,7 @@
                     <li>
                         <div class="article">
                                 
-                                <a href="#"><img src="http://vigancity.gov.ph/wp-content/uploads/2023/05/344403257_252731517232371_4883256063991421734_n-1024x683.jpg" style="width: auto; height: 180px;" alt="sub"></a>
+                                <a href="#"><img src="https://ia902603.us.archive.org/30/items/vigan/Mayor_Bonito.jpg" style="width: auto; height: 180px;" alt="sub"></a>
                                 <ul>
                                     <li style="font-size: 20px;">Mayor Bonito Singson to Launch Vigan Tourist Passport</li>
                                     <li style="font-size: 15px;text-align: justify; font-family: 'League Spartan', sans-serif;">April 24, 2023 | Mayor Singson sees this initiative as one of several planned legacy projects for the city with hopes to boost its tourism industry while also promoting its unique heritage and supporting local businesses.</li>
@@ -138,7 +210,7 @@
                             </div>
                         
                         <div class="article">
-                            <a href="#"><img src="http://vigancity.gov.ph/wp-content/uploads/2023/02/DSC00984-1024x683.jpg" style="width: auto; height: 180px;"></a>
+                            <a href="#"><img src="https://ia902603.us.archive.org/30/items/vigan/Passport_Vigan.jpg" style="width: auto; height: 180px;"></a>
                             <ul>
                                 <li style="font-size: 20px;">Vigan City launches tourist passport as it celebrates its arts festival</li>
                                 <li style="font-size: 15px;text-align: justify ; font-family: 'League Spartan', sans-serif;">May 7, 2023 | The City Government of Vigan in Ilocos Sur just launched the Ciudad de Vigan Pasaporte de Turista, aimed at boosting local businesses in one of the most popular tourist destinations in northern Luzon, known for its heritage houses and declared a UNESCO World Heritage site. It served as a highlight of the week-long Viva Vigan Binatbatan Festival of the Arts.</li>
@@ -210,6 +282,6 @@
                 </div>
             </div>
         </section>
-            
+        
     </body>
 </html>

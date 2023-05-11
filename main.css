@@ -49,7 +49,11 @@ header img:hover{
     transform: scale(1.2);
     z-index:2;
 }
+
 /* Navbar */
+.sidenavcont{
+    display: none;
+}
 nav {
     width: auto;
     overflow: hidden;
@@ -294,11 +298,13 @@ iframe {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
     html, body{
+        min-zoom: 100%;
         width: 100%;
         overflow-x: hidden;
     }
+    
     header{
         display: flex;
         width: 100%;
@@ -334,12 +340,57 @@ iframe {
         z-index:2;
     }
     /* Navbar */
+    .sidenavcont{
+        display:  contents;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #085589 ;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+      
+    .sidenav a:hover {
+        color: white;
+    }
+      
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
     nav {
-        width: auto;
-        overflow: hidden;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 15px;
     }
     
     nav a {
+        font-size: 18px;
         float: left;
         display: block;
         color: black;
@@ -350,10 +401,17 @@ iframe {
         float: right;
     }
     nav a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-        
         transition: all 0.2s ease-in-out 0s;
         background-color: #f39069;
         color: white;
+    }
+
+    nav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
     }
     
     .dropdown {
@@ -361,9 +419,10 @@ iframe {
         font-family: 'League Spartan', sans-serif;
         background-color: white;
         justify-content: space-evenly;
+        flex-direction: column;
         margin: 10px;
         color:black;
-        float: left;
+        float: center;
         overflow: hidden;
     }
     
@@ -431,7 +490,9 @@ iframe {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 450px;
+        height: auto;
+        padding-top: 9%;
+        padding-bottom: 9%;
         background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('https://ia902603.us.archive.org/30/items/vigan/Tourist_Spot.png');
         background-attachment: fixed;
         background-position: center;
@@ -440,10 +501,11 @@ iframe {
     }
     .bgpic1 h1{
         text-align: center;
+        font-size: 30px;
         color: white;
     }
     .bgpic1 ul{
-        display: flex;
+        display: block;
     }
     .bgpic1-content{
         display: flex;
@@ -470,33 +532,15 @@ iframe {
     /* Content */
     .content1{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: auto;
-        height: auto;
-        padding: 20px ;
-    }
-    .content1 ul li{
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: row;
-        padding: 8px 10px;
-        align-items: left;
     }
     .article{
         display: flex;
-        padding: 0 5px 10px 5px;
+        flex-direction: column;
+        padding:  5px 15px 5px;
         flex: 2;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
         color: black;
-    }
-    .article ul li{
-        list-style: none;
-        font-size: 12px;
-    }
-    .article img{
-        justify-content: left;
-        width: 100px;
     }
     
     @font-face {
