@@ -31,6 +31,11 @@ header{
 .header-logo{
     display: flex;
 }
+.header-logo h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 header h1{
     font-size: 70px;
     color: white;
@@ -305,7 +310,52 @@ iframe {
     margin-top: 20px;
 }
 
-
+/* timeline css */
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    min-height: 100vh;
+    padding: 100px 0;
+    font-family: Jost;
+  }
+  
+  .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+    background: #1f1f1f;
+    -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+            box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+    border-radius: 5px;
+    color: white;
+    padding: 1.75rem;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  
+  .timeline-component {
+    margin: 0px 20px 20px 20px;
+  }
+  
 @media screen and (max-width: 600px) {
     html, body{
         min-width: 100%;
@@ -316,6 +366,7 @@ iframe {
     header{
         display: flex;
         width: 100%;
+        
         background-color: #da6d42;
     }
     .header{
@@ -327,6 +378,12 @@ iframe {
         align-items: center;
     }
     .header-logo{
+        display: flex;
+    }
+    
+    .header-logo h1{
+        justify-content: center;
+        align-items: center;
         display: flex;
     }
     header h1{
@@ -515,13 +572,13 @@ iframe {
     .bgpic1 h1{
         text-align: center;
         color: white;
-        font-size: 65px;
+        font-size: 50px;
         font-family: 'Fjalla One', sans-serif;
     }
     .bgpic1 p{
         text-align: center;
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         font-family: 'Fjalla One', sans-serif;
     }
     .bgpic1 ul{
@@ -529,9 +586,8 @@ iframe {
     }
     .bgpic1-content{
         display: flex;
-        margin: 10px;
         align-items: center;
-        margin-left: 30px;
+        justify-content:center;
     }
     .bgpic1-content ul li{
         justify-content: center;
@@ -619,14 +675,20 @@ iframe {
     
     .footer{
         background-color: #085589;
-        padding: 30px 30px;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        width: 100%
+    }
+    .footer-imgs img{
+        height: 50px
     }
     .vigan-footer {
         font-family: 'Barabara', sans-serif;
-        font-size: 70px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         color:white;
         text-align:center;
     }
@@ -636,12 +698,12 @@ iframe {
     #contact-info{
         font-family: 'League Spartan', sans-serif;
         font-weight: 100;
-        font-size: 20px;
+        font-size: 10px;
     }
     
     #copyright{
         font-family: 'League Spartan', sans-serif;
-        font-size: 25px;
+        font-size: 10px;
         margin-top: 20px;
     }
 }
