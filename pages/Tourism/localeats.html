@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="../../main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +34,81 @@
     </script>
     <body>
         <header>
+            <div class="sidenavcont">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="dropdown" style="border-radius: 10px;">
+                        <button class="dropbtn" onclick="myFunction()">The City
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../TheCity/history.html">History</a>
+                            <a href="../TheCity/geography.html">Geography</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">Governance
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Governance/cityofficials.html">City Officials</a>
+                            <a href="../Governance/citizen.html">Citizen's Charter</a>
+                            <a href="../Governance/vmc.html">Vision, Mission, and Core Values</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">Tourism
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Tourism/attraction.html">Attractions</a>
+                            <a href="../Tourism/industries.html">Industries</a>
+                            <a href="../Tourism/localeats.html">Local Eats</a>
+                            <a href="../Tourism/business.html">Business Application</a>
+                            <a href="../Tourism/touristmap.html">Tourist Map</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">News
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../News/localnews.html">Local News</a>
+                            <a href="../News/events.html">Events</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px" >
+                        <button class="dropbtn" onclick="myFunction()">Contacts
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Contacts/hotlines.html">Hotlines</a>
+                        </div>
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+            </div>
+            
+    
+    
             <div class="header">
                 <div class="header-logo">
                     <a href="../../index.html"><img src="https://archive.org/download/vigan/resources/viganSeal.png" alt="viganSeal"></a>
@@ -51,7 +126,7 @@
                             <a href="../TheCity/geography.html">Geography</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">Governance
                             <i class="fa fa-caret-down"></i>
@@ -63,7 +138,7 @@
                             <a href="../Governance/vmc.html">Vision, Mission, and Core Values</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">Tourism
                             <i class="fa fa-caret-down"></i>
@@ -77,7 +152,7 @@
                             <a href="../Tourism/touristmap.html">Tourist Map</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">News
                             <i class="fa fa-caret-down"></i>
@@ -88,7 +163,7 @@
                             <a href="../News/events.html">Events</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px" >
                         <button class="dropbtn" onclick="myFunction()">Contacts
                             <i class="fa fa-caret-down"></i>
@@ -100,11 +175,238 @@
                     </div>
                 </nav>
             </div>
-            
         </header>
-        <div class="bgpic1">
-            
+        <div class="bgpic1"> 
+            <h1>LOCAL EATS</h1>
         </div>
+
+        <section class="foods">
+            <div class="slide-container">
+                <span class="slider-span" id="slider-span1"></span>
+                <span class="slider-span" id="slider-span2"></span>
+                <span class="slider-span" id="slider-span3"></span>
+                <span class="slider-span" id="slider-span4"></span>
+                <span class="slider-span" id="slider-span5"></span>
+                <span class="slider-span" id="slider-span6"></span>
+                <span class="slider-span" id="slider-span7"></span>
+                <span class="slider-span" id="slider-span8"></span>
+                <span class="slider-span" id="slider-span9"></span>
+                <span class="slider-span" id="slider-span10"></span>
+
+                <div class="img-slider">
+                    <div class="slides-div" id="slide-1">
+                        <div class="img" id="img1">
+                            <h1>Vigan Longganisa</h1>
+                            <img src="vigan.jpg" alt="vig">
+                            <input type="checkbox" id="toggleCheckbox">
+                            <label for="toggleCheckbox">Click Me</label>
+                            <p id="hiddenText">This text will appear when the box is clicked!</p>           
+                        </div>
+                        <a href="#slider-span1" class="button" id="button-1"></a>
+                    </div>
+                    <div class="slides-div" id="slide-2">
+                        <div class="img" id="img2">
+                            <h1>Vigan Empanada</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span2" class="button" id="button-2"></a>
+                    </div>
+                    <div class="slides-div" id="slide-3">
+                        <div class="img" id="img3">
+                            <h1>Vigan Bagnet</h1>
+                            <img src="vigan.jpg" alt="vig">
+                            <p>Hello</p>
+                        </div>
+                        <a href="#slider-span3" class="button" id="button-3"></a>
+                    </div>
+                    <div class="slides-div" id="slide-4">
+                        <div class="img" id="img4">
+                            <h1>Okilas Ken Dinardaaran</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span4" class="button" id="button-4"></a>
+                    </div>
+                    <div class="slides-div" id="slide-5">
+                        <div class="img" id="img5">
+                            <h1>Sinanglao</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span5" class="button" id="button-5"></a>
+                    </div>
+                    <div class="slides-div" id="slide-6">
+                        <div class="img" id="img6">
+                            <h1>Vigan Miki</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span6" class="button" id="button-6"></a>
+                    </div>
+                    <div class="slides-div" id="slide-7">
+                        <div class="img" id="img7">
+                            <h1>Vigan Okoy</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span7" class="button" id="button-7"></a>
+                    </div>
+                    <div class="slides-div" id="slide-8">
+                        <div class="img" id="img8">
+                            <h1>Bibingka</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span8" class="button" id="button-8"></a>
+                    </div>
+                    <div class="slides-div" id="slide-9">
+                        <div class="img" id="img9">
+                            <h1>Turones de Mani</h1>
+                            <img src="vigan.jpg" alt="vig">
+                        </div>
+                        <a href="#slider-span9" class="button" id="button-9"></a>
+                    </div>
+
+
+    <style>
+      
+
+
+.slides-div h1 {
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slides-div img {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.foods {
+    background-color: orange;
+    height: 85vh;
+}
+    .slide-container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.img-slider {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    left: 0;
+    align-items: center;
+    transition: 0.7s;
+}
+.slides-div {
+    
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 30px;
+    background-color: white;
+    text-align: left;
+    border-radius: 25px 0 25px 0;
+    margin-left: 10px;
+}
+.img {
+    position: relative;
+    width: 240px;
+    height: 370px;
+    transition: .5s;
+    filter: saturate(10%);
+}
+.button {
+    position: absolute;
+    width: 240px;
+    height: 370px;
+    transition: .5s;
+}
+.slides-div:hover{
+    filter: brightness(80%);
+}
+#slider-span1:target ~ .img-slider #img1,
+#slider-span1:target ~ .img-slider #button-1 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span2:target ~ .img-slider #img2,
+#slider-span2:target ~ .img-slider #button-2 {
+    width: 380px;
+    height: 585px;
+    
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span3:target ~ .img-slider #img3,
+#slider-span3:target ~ .img-slider #button-3 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span4:target ~ .img-slider #img4,
+#slider-span4:target ~ .img-slider #button-4 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span5:target ~ .img-slider #img5,
+#slider-span5:target ~ .img-slider #button-5 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span6:target ~ .img-slider #img6,
+#slider-span6:target ~ .img-slider #button-6 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span7:target ~ .img-slider #img7,
+#slider-span7:target ~ .img-slider #button-7 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span8:target ~ .img-slider #img8,
+#slider-span8:target ~ .img-slider #button-8 {
+    width: 380px;
+    height: 585px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span9:target ~ .img-slider #img9,
+#slider-span9:target ~ .img-slider #button-9 {
+    width: 380px;
+    height: 585px;
+    filter: saturate(100%);
+    border-radius: 25px 0 25px 0;
+}
+
+
+#slider-span1:target ~ .img-slider{left: 50px;}
+#slider-span2:target ~ .img-slider{left: 50px;}
+#slider-span3:target ~ .img-slider{left: 50px;}
+#slider-span4:target ~ .img-slider{left: 50px;}
+#slider-span5:target ~ .img-slider{left: -50px;}
+#slider-span6:target ~ .img-slider{left: -180px;}
+#slider-span7:target ~ .img-slider{left: -450px;}
+#slider-span8:target ~ .img-slider{left: -650px;}
+#slider-span9:target ~ .img-slider{left: -850px;}
+
+             </style>
+            </div>        
+        </section>    
+        
+
         </div>
         <section class= "footer">
             <div class="footer-imgs">

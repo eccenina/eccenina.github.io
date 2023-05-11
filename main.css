@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    zoom: 95%;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }

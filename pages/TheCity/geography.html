@@ -32,8 +32,112 @@
         
 
     </script>
+    <style>
+        .geo-content{
+            background-image: url(https://www.supercoloring.com/sites/default/files/styles/drawing_full/public/fif/2017/09/treasure-map-paper-template-paper-craft.jpg);
+            display:flex;
+            margin: 20px;
+            border-radius: 25px;
+            text-align: justify;
+            align-items: center;
+            padding: 40px;
+            
+        }
+        .geo-content p{
+            font-family: 'League Spartan', sans-serif;
+            font-size: 20px;
+            color:black;
+        }
+        .geo-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align-last: left;
+        }
+        .bgpic1 h1{
+            padding: 20px;
+        }
+        .bgpic1{
+            height: auto;
+        }
+    </style>
     <body>
         <header>
+            <div class="sidenavcont">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="dropdown" style="border-radius: 10px;">
+                        <button class="dropbtn" onclick="myFunction()">The City
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../TheCity/history.html">History</a>
+                            <a href="../TheCity/geography.html">Geography</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">Governance
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Governance/cityofficials.html">City Officials</a>
+                            <a href="../Governance/citizen.html">Citizen's Charter</a>
+                            <a href="../Governance/vmc.html">Vision, Mission, and Core Values</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">Tourism
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Tourism/attraction.html">Attractions</a>
+                            <a href="../Tourism/industries.html">Industries</a>
+                            <a href="../Tourism/localeats.html">Local Eats</a>
+                            <a href="../Tourism/business.html">Business Application</a>
+                            <a href="../Tourism/touristmap.html">Tourist Map</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">News
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../News/localnews.html">Local News</a>
+                            <a href="../News/events.html">Events</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px" >
+                        <button class="dropbtn" onclick="myFunction()">Contacts
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Contacts/hotlines.html">Hotlines</a>
+                        </div>
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+            </div>
+            
+    
+    
             <div class="header">
                 <div class="header-logo">
                     <a href="../../index.html"><img src="https://archive.org/download/vigan/resources/viganSeal.png" alt="viganSeal"></a>
@@ -51,7 +155,7 @@
                             <a href="../TheCity/geography.html">Geography</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">Governance
                             <i class="fa fa-caret-down"></i>
@@ -63,7 +167,7 @@
                             <a href="../Governance/vmc.html">Vision, Mission, and Core Values</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">Tourism
                             <i class="fa fa-caret-down"></i>
@@ -77,7 +181,7 @@
                             <a href="../Tourism/touristmap.html">Tourist Map</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">News
                             <i class="fa fa-caret-down"></i>
@@ -88,7 +192,7 @@
                             <a href="../News/events.html">Events</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px" >
                         <button class="dropbtn" onclick="myFunction()">Contacts
                             <i class="fa fa-caret-down"></i>
@@ -100,11 +204,203 @@
                     </div>
                 </nav>
             </div>
-            
         </header>
         <div class="bgpic1">
-            
+            <h1>Geographic Location and Area</h1>
+            <div class="geo-container">
+                <div class="geo-content">
+                    <p>
+                        The Ilocos Sur province's capital, Vigan, is located on Northern 
+                        Luzon's western coast. Bantay Municipality, Santa Municipality, 
+                        Caoayan Municipality, and Sta Municipality form its northern, eastern, 
+                        southern, and western borders, respectively. Lastly, on the southwest 
+                        coast along the China Sea, and Catalina. It is 80 miles (408 km) from 
+                        Manila. 139 kilometers away from Laoag City. from La Union's San Fernando.
+                        <br><br>
+                        The center of Vigan is roughly situated between the meridian 120 23'15" 
+                        east longitude and the parallel 17 34'30" north latitude. Its total land 
+                        area is 2,886.085 hectares, or 28.86085 sq km.
+                        <br><br>
+                        The provincial capital of Ilocos Sur, City of Vigan, is located on Northern 
+                        Luzon's western coast. Its borders are the Municipality of Santa on the east, 
+                        the Municipality of Bantay on the north, the Municipality of Caoayan on the 
+                        south, and the Municipality of Sta on the west. Catalina and the China Sea in 
+                        the southwest. Manila is 408 kilometers away, Laoag City is 80 kilometers away, 
+                        and San Fernando, La Union is 139 kilometers away.
+                        <br> <br>
+                        There are 39 barangays in Vigan; the poblacion barangays are made up of nine 
+                        barangays and have a combined land area of 192.45 hectares; the adjacent 30 
+                        barangays have a total land area of 2,693.635 hectares. The center of Vigan 
+                        is roughly between the parallel 17 34' 30" north latitude and the meridian 
+                        120 23' 15" east longitude.
+                        <br> <br>
+                        There are 39 barangays in Vigan; the poblacion barangays are made up of nine 
+                        barangays and have a combined land area of 192.45 hectares; the adjacent 30 
+                        barangays have a total land area of 2,693.635 hectares.
+                        <br>
+                    </p>
+                </div>
+            </div>
         </div>
+        
+        <div class="bgpic1">
+            
+            <div class="geo-container">
+                <div class="geo-content">
+                    <p>
+                        The majority of Vigan's land area is flat, but Brgy. V, Tamag, and Paoa 
+                        do have 20-degree slopes. 36.60% of the 2,886 hectares of land are used 
+                        for residential purposes, while 45.18% are used for agriculture.Deeply 
+                        cut valleys make up the drainage network along the eastern edge of the 
+                        Vigan-Bantay plain. These valleys' patterns are highly influenced by major 
+                        faulting trends, especially those that run north and east
+                        <br><br>
+                        On the north and south, the Mestizo River, whose water release originates 
+                        from Bantaoay head water, and the Vigan River, respectively, drain Vigan.
+                        The slope of the Vigan-Bantay plain ranges from 0% to 8%, and the relief 
+                        is actively level to undulating. Particularly Vigan is largely level with
+                        a few hills in the Brgy. The elevation of Tamag, Bulala, and Salindeg, 
+                        which can occasionally exceed about 50 meters, is between 3% and 8%.
+
+                        <br><br>
+                        The land of Vigan is generally flat, with a slope of 20 degrees at Brgy. V, 
+                        Tamag, Paoa. Of the 2,886 hectares of land, 36.60% is private land and 45.18% 
+                        is horticultural land.
+                        <br> <br>
+                        At the eastern edge of the Vigan Banthai Plain, deeply cut valleys form a 
+                        drainage system. These valley patterns are strongly influenced by major fault 
+                        trends, particularly north- and east-trending faults. Draining from the headwaters 
+                        of Bang Taoay, the Mestizo River drains the Vigan River to the north and the 
+                        Banthai River to the south.
+                        <br> <br>
+                        The terrain of the Vigan-Bantay Plain is active from flat to hilly with gradients 
+                        of 0-8%. Especially in Vigan, Brgy has some hills. Tamag, Bulala and Salindeg have 
+                        gradients of 3% to 8% and in some cases up to 50 meters.
+                        <br> <br>
+                        The undulations often reach heights of over 600 meters, especially in the north 
+                        and east, and the eastern edge of the plain is characterized by steep to very 
+                        steep gradients of about 40% to 60%. Vigan Gap Hill, through which the Vigan 
+                        River passes, is a major topographical feature in the eastern part of the city. 
+                        Gap Hill is about 10 kilometers east of Vigan.
+                        <br> <br>
+                        The eastern edge of the plain has a slope that ranges from high to very 
+                        steep (40–60%), and the relief frequently rises to an elevation of more than 
+                        600 meters, notably in the northern and eastern parts.The Vigan Gap Hill, where
+                        the continuously shifting Vigan River cuts its course, is the main topographic
+                        feature in the eastern part of the town. In the east of Vigan, around 10 
+                        kilometers, is where you'll find The Gap Hill.
+
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <h1>Topography</h1>
+        </div>
+
+        <div class="bgpic1">
+            <h1>Surface Drainage - The Mestizo River</h1>
+            <div class="geo-container">
+                <div class="geo-content">
+                    <p>
+                        Vigan was once totally encircled by water that jutted out from the shore
+                        like a triangle island, according to a chart from the sixteenth century. 
+                        Geological observation supported this finding because it could be determined 
+                        that the water bodies in the vicinity of Vigan were the primary channels that 
+                        were then running in a westerly direction and branching as the river sliced the 
+                        Vigan ridge.
+                        <br> <br> 
+                        According to 16th century maps, Vigan was once surrounded by water, forming a 
+                        triangular island from the mainland. This was confirmed by geological observations 
+                        showing that the waters around Vigan were a major watercourse that then diverged 
+                        into rivers that flowed westward and divided the Vigan ridge.
+                        <br> <br>
+                        Currently, the Mestizo River flows only through Vigan. There are very few fish and 
+                        they are becoming scarce.
+                        <br> <br>
+                        A brief survey was conducted to collect preliminary geological data needed for the 
+                        Mestizo River restoration and development plan. Geologists at the National Museum 
+                        estimate that about 450,000 cubic meters of sediment would need to be dredged from 
+                        the mouth of the river to the Khao Ayang Bridge, which is about 2.5 kilometers long, 
+                        90 meters wide and 2 meters deep.
+                        <br> <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bgpic1">
+            
+            <div class="geo-container">
+                <div class="geo-content">
+                    <p>
+                        Vigan has a climate that is classified as having the first climate type 
+                        in the Philippines, which has two distinct seasons. The dry season often 
+                        starts in November and lasts through April, peaking in the hot months of 
+                        April and May. June through October are the wettest months, with August 
+                        being the wettest month. The greatest recorded rainfall is 693.3 mm, and 
+                        the average annual rainfall is 190.683 mm. 26 °C is the average temperature. 
+                        The average high and low temperatures are 30.9 °C and 21.1 °C, respectively. 
+                        Every year, 7–10 typhoons pass through Vigan. The relative humidity is 81% on 
+                        average.
+                        <br><br>
+                        In the Philippines, Vigan falls under the first climate type, which has two 
+                        distinct seasons. The dry season typically begins in November and ends in April, 
+                        peaking in the hot months of April and May. The wet season typically lasts from 
+                        June to October, with August seeing the most precipitation. The annual rainfall 
+                        is 190.683 mm on average. Additionally, the most precipitation that was recorded 
+                        was 693.3 millimeters.
+                        <br> <br>
+                        The typical temperature is 26 °C. The typical hottest temperature is 30.9 °C and 
+                        the typical coldest temperature is 21.1 °C. Each year, between seven and ten typhoons 
+                        hit Vigan. The relative humidity is 81% on average.
+                        <br> <br>
+                        The climate in Vigan is tropical monsoon. Throughout the year, you get a lot of rain 
+                        and high temperatures. Vigan experiences an annual rainfall of approximately 1169 
+                        millimeters and a temperature of 31 degrees on average. It is dry 147 days a year, 
+                        with a UV-index of 7 and an average humidity of 75%.
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <h1>Climate</h1>
+        </div>
+
+        <div class="bgpic1">
+            <h1>Hydrogeology</h1>
+            <div class="geo-container">
+                <div class="geo-content">
+                    <p>
+                        The Vigan Banthai Plain is clearly free of collapse and pointing, except for the 
+                        eastern and southern extremities of the plain. A north-south fault runs through the 
+                        Pre-Quaternary rocks on the eastern margin. The southern extremity of the plain is 
+                        bounded by another tectonic line running northwest and southeast from Santa to Narvakan 
+                        and Sutha, and fault lines run from Sinait to Bantai and Santa. Maria.
+                        <br> <br> 
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bgpic1">
+            
+            <div class="geo-container">
+                <div class="geo-content">
+                    <p>
+                        The city's sedimentary and metamorphic rocks include alluvium, fluviatille, lacuatine, 
+                        pludal, and beach deposits, which include: stools, coral reefs, and beach rock The majority 
+                        of these can be found in Vigan's coastal areas. The type of clay known locally as "burnay" 
+                        that is utilized in the production of earthen jars is an important non-metallic mineral 
+                        resource that can be found in Vigan. This kind of clay is used to make a variety of sizes 
+                        and uses for earthenware. The mineral, which is referred to as Bantog Clay, serves as the 
+                        primary building block for bricks. The original building materials for the Vigan's historic 
+                        Hispanic homes were these bricks.
+                        <br> <br>
+                    </p>
+                </div>
+            </div>
+            <h1>Geologic Base and Mineral Resources</h1>
+        </div>
+
         </div>
         <section class= "footer">
             <div class="footer-imgs">

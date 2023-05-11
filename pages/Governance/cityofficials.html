@@ -34,6 +34,81 @@
     </script>
     <body>
         <header>
+            <div class="sidenavcont">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="dropdown" style="border-radius: 10px;">
+                        <button class="dropbtn" onclick="myFunction()">The City
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../TheCity/history.html">History</a>
+                            <a href="../TheCity/geography.html">Geography</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">Governance
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Governance/cityofficials.html">City Officials</a>
+                            <a href="../Governance/citizen.html">Citizen's Charter</a>
+                            <a href="../Governance/vmc.html">Vision, Mission, and Core Values</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">Tourism
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Tourism/attraction.html">Attractions</a>
+                            <a href="../Tourism/industries.html">Industries</a>
+                            <a href="../Tourism/localeats.html">Local Eats</a>
+                            <a href="../Tourism/business.html">Business Application</a>
+                            <a href="../Tourism/touristmap.html">Tourist Map</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px">
+                        <button class="dropbtn" onclick="myFunction()">News
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../News/localnews.html">Local News</a>
+                            <a href="../News/events.html">Events</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown" style="border-radius: 10px" >
+                        <button class="dropbtn" onclick="myFunction()">Contacts
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="../Contacts/hotlines.html">Hotlines</a>
+                        </div>
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+            </div>
+            
+    
+    
             <div class="header">
                 <div class="header-logo">
                     <a href="../../index.html"><img src="https://archive.org/download/vigan/resources/viganSeal.png" alt="viganSeal"></a>
@@ -51,7 +126,7 @@
                             <a href="../TheCity/geography.html">Geography</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">Governance
                             <i class="fa fa-caret-down"></i>
@@ -63,7 +138,7 @@
                             <a href="../Governance/vmc.html">Vision, Mission, and Core Values</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">Tourism
                             <i class="fa fa-caret-down"></i>
@@ -77,7 +152,7 @@
                             <a href="../Tourism/touristmap.html">Tourist Map</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px">
                         <button class="dropbtn" onclick="myFunction()">News
                             <i class="fa fa-caret-down"></i>
@@ -88,7 +163,7 @@
                             <a href="../News/events.html">Events</a>
                         </div>
                     </div>
-
+    
                     <div class="dropdown" style="border-radius: 10px" >
                         <button class="dropbtn" onclick="myFunction()">Contacts
                             <i class="fa fa-caret-down"></i>
@@ -100,7 +175,6 @@
                     </div>
                 </nav>
             </div>
-            
         </header>
         <div class="bgpic1">
             
