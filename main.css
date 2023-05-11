@@ -548,6 +548,8 @@ iframe {
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0 0 70px 0;
+        display: flex;
+        flex-direction: column;
     }
     /* Content */
     .content1{
@@ -587,7 +589,6 @@ iframe {
         width: 60%;
         height: auto;
         text-align: left;
-        padding: 30px;
         margin-top: 7%;
     }
     .box-1 img{
