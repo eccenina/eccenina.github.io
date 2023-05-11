@@ -670,8 +670,8 @@ iframe {
     
     /* embed vid */
     .embed-vid{
-        width: 400px;
-        height: 225px;
+        width: 50%;
+        height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
