@@ -547,7 +547,7 @@ iframe {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 0 0 70px 0;
+        padding: 30px;
         display: flex;
         flex-direction: column;
     }
@@ -579,8 +579,8 @@ iframe {
         flex-direction: column;
         font-family: 'League Spartan', sans-serif;
         justify-content: center;
-        place-items: center;
-        padding-top: 70px;
+        align-items: center;
+        padding: 0;
     }
     
     .box-1 {
@@ -590,6 +590,7 @@ iframe {
         height: auto;
         text-align: left;
         margin-top: 7%;
+        margin-left: 0;
     }
     .box-1 img{
         width: 100%;
