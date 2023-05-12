@@ -18,7 +18,6 @@
     height: 85vh;
     zoom: 78%;
     overflow: hidden;
- 
 }
 .slide-container {
     width: 100%;
@@ -30,8 +29,8 @@
 }
 .img-slider {
     width: 100%;
-    height: 600px;
-    position: relative;
+    height: 500px;
+    position: absolute;
     display: flex;
     left: 0;
     align-items: center;
@@ -251,6 +250,7 @@
 #slider-span9:target ~ .img-slider .text9 {
     opacity: 1;
 }
+
 
 
 /* Responsiveness */

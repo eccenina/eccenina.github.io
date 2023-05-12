@@ -44,17 +44,17 @@
             text-align: justify;
             text-align-last: left;
             font-family: 'Fjalla One', sans-serif;
-            padding: 100px;
+            padding: 10px;
         }
         .tour-container h1{
             margin: 0 10% 0 10%;
-            font-size: 70px;
+            font-size: 20px;
         }
         .tour-content p{
             font-family: 'League Spartan', sans-serif;
             font-size: 20px;
             color:black;
-            padding: 30px;
+            padding: 15px;
             background-color: white;
         }
         .tour-content h1{
@@ -88,7 +88,70 @@
             margin: 0 10% 0 10%;
             width: 600px;
         }
-
+        @media screen and (max-width: 600px) {
+            .tour-container{
+                overflow: hidden;
+                background-color: orange;
+                flex-direction: column;
+                display: flex;
+                min-height: 600px;
+                align-items: center;
+                justify-content: space-around;
+                text-align: justify;
+                text-align-last: left;
+                font-family: 'Fjalla One', sans-serif;
+                padding: 30px;
+            }
+            .tour-container h1{
+                margin: 0 20px 0 20px;
+                font-size: 30px;
+            }
+            .tour-container .img{
+                order: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 20px;
+                transition: 0.3s all ease-out;
+                margin: 10px;
+                background-size: cover;
+            }
+            .tour-container .img h1{
+                
+                justify-content: center;
+                padding: 20px;
+                margin: 0 10% 0 10%;
+            
+            }
+            .tour-content{
+                order: 2;
+            }
+            .tour-content p{
+                font-family: 'League Spartan', sans-serif;
+                font-size: 20px;
+                color:black;
+                padding: 30px;
+                background-color: white;
+            }
+            .tour-content h1{
+                font-family: 'League Spartan';
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px 0 20px 0;
+                border-radius: 25px 25px 0 0;
+                background-color: #085589;
+                text-align-last:center;
+                color: white;
+            }
+            .img:hover{
+                transform: scale(1.1);
+            }
+        }
     </style>
     <body>
         <header>
@@ -240,7 +303,7 @@
         </div>
         <div class="tour-container">
             <a href="https://www.google.com/maps/place/Crisologo,+Vigan+City,+Ilocos+Sur/@17.5696232,120.3856748,17z/data=!3m1!4b1!4m6!3m5!1s0x338e657640d83641:0xc06ac1f60bfbb445!8m2!3d17.5696181!4d120.3882497!16s%2Fg%2F1tlk8xpc" target="_blank">
-                <div class="img" style="background-image: url(https://archive.org/30/items/vigan/bg500px.jpg)"><h1></h1></div>
+                <div class="img" style="background-image: url(https://archive.org/30/items/vigan/bg500px.jpg);"><h1></h1></div>
             </a>
             <div class="tour-content" >
                 <h1>Calle Crisologo</h1>
@@ -306,7 +369,7 @@
                 </p>
             </div>
             <a href="https://www.google.com/maps/place/Vigan+Fil-Hispanic+Park/@17.5695648,120.3789702,17z/data=!3m1!4b1!4m6!3m5!1s0x338e6570fda91313:0xca5b51f767004ad3!8m2!3d17.5695597!4d120.3815451!16s%2Fg%2F1hhk8gwl5" target="_blank">
-                <div class="img" style="background-image: url(https://archive.org/30/items/vigan/bg500px.jpg)"><h1></h1></div>
+                <div class="img" style="background-image: url(https://archive.org/30/items/vigan/mirahills500px.jpg)"><h1></h1></div>
             </a>
             
         </div>

@@ -90,20 +90,35 @@
     <style>
         .bgpic1{
             height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0 50px 0
         }
         #map-wrapper {
             padding: 50px;
-            height: 500px;
-            width: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            height: 700px;
+            width: 700px;
         }
         
         #map {
             border-radius: 25px;
             height: 100%;
             width: 100%;
+        }
+
+        @media (max-width: 600px){
+            .bgpic1{
+                display: flex;
+                flex-direction: column;
+            }
+
+            #map-wrapper {
+            padding: 50px;
+            height: 400px;
+            width: 90%;
+            }
         }
 
     </style>
@@ -269,7 +284,7 @@
             <div class="footer-imgs">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_the_Philippines.svg/300px-Coat_of_arms_of_the_Philippines.svg.png"alt="Pilipinas">
             <img src="https://archive.org/download/vigan/resources/viganSeal1.png"  alt="Seven-Wonders">
-            <img src="https://archive.org/download/vigan/resources/viganSeal2.png" alt="World-Heritage">
+            <img src="https://archive.org/download/vigan/resources/viganSeal2.png" lt="World-Heritage">
             </div>
             <h1 class="vigan-footer">VIGAN<br>CITY</h1>
             <div class="footer-text">
