@@ -6,11 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=League+Spartan:wght@500&display=swap" rel="stylesheet">
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHs99h-zTzTr3DcKrICDTv0ofZeML0No4"></script>
     <head>
         <title>Vigan City</title>
     </head>
+    <!-- script for navbar dropdown -->
     <script>
+        
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content 
 
@@ -32,6 +34,79 @@
         
 
     </script>
+    <!-- script for google map init -->
+    <script>
+        function initMap() {
+            var centerloc  = {lat: 17.5627697, lng: 120.3688201};
+            var latlng1 = {lat: 17.5696232, lng: 120.3856694};
+            var latlng2 = {lat: 17.5510523, lng: 120.376459};
+            var latlng3 = {lat: 17.5754023, lng: 120.3868553};
+            var latlng4 = {lat: 17.5695463, lng: 120.3809003};
+            var latlng5 = {lat: 17.5594853, lng: 120.3638883};
+            var latlng6 = {lat: 17.5746445, lng: 120.3880569};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 13.5,
+                center: centerloc
+            });
+            
+            var marker1 = new google.maps.Marker({
+                position: latlng1,
+                map: map,
+                title: 'Crisologo'
+            });
+
+            var market2 = new google.maps.Marker({
+                position: latlng2,
+                map: map,
+                title: 'Baluarte'
+            });
+
+            var market3 = new google.maps.Marker({
+                position: latlng3,
+                map: map,
+                title: 'Plaza Salcedo'
+            });
+
+            var market4 = new google.maps.Marker({
+                position: latlng4,
+                map: map,
+                title: 'Mira Hills'
+            });
+
+            var market5 = new google.maps.Marker({
+                position: latlng5,
+                map: map,
+                title: 'Hidden Park'
+            });
+
+            var market6 = new google.maps.Marker({
+                position: latlng6,
+                map: map,
+                title: 'Vigan Cathedral'
+            });
+        }
+    </script>
+    <style>
+        .bgpic1{
+            height: auto;
+        }
+        #map-wrapper {
+            padding: 50px;
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #map {
+            border-radius: 25px;
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
     <body>
         <header>
             <div class="sidenavcont">
@@ -176,8 +251,18 @@
                 </nav>
             </div>
         </header>
+        
         <div class="bgpic1">
+            <h1>Tourist Map</h1>
+
+            <div id="map-wrapper">
+                <div id="map"></div>
+                <script>
+                    initMap();
+                </script>
+            </div>
             
+        </div>
         </div>
         </div>
         <section class= "footer">

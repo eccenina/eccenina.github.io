@@ -1,0 +1,26 @@
+/* /* font-family: 'Fjalla One', sans-serif;
+font-family: 'League Spartan', sans-serif; */
+
+.hotlines{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hotline-texts h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    padding: 20px 0 20px 0
+}
+
+.hotline-texts p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.hotlines img{
+    width: 30%;
+    height: auto;
+    position: sticky
+}
