@@ -24,8 +24,6 @@
     height: 85vh;
     display: flex;
     align-items: center;
-    overflow: hidden;
-    position: relative;
 }
 .img-slider {
     width: 100%;
@@ -146,7 +144,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text2{
     opacity: 0;
@@ -155,7 +153,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text3{
     opacity: 0;
@@ -164,7 +162,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text4{
     opacity: 0;
@@ -173,7 +171,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text5{
     opacity: 0;
@@ -182,7 +180,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text6{
     opacity: 0;
@@ -191,7 +189,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text7{
     opacity: 0;
@@ -200,7 +198,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text8{
     opacity: 0;
@@ -209,7 +207,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .text9{
     opacity: 0;
@@ -218,7 +216,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 
@@ -251,6 +249,13 @@
     opacity: 1;
 }
 
+.down-text{
+    
+}
+.down-text p{
+    margin-left: 35%;
+
+}
 
 
 /* Responsiveness */
@@ -264,6 +269,9 @@
     height: 85vh;
     zoom: 60%;
     overflow: hidden;
+}
+.slides-div:hover{
+    filter: brightness(100%);
 }
 
 #slider-span1:target ~ .img-slider{left:170px;}
