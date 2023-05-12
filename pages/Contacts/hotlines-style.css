@@ -1,15 +1,13 @@
 /* /* font-family: 'Fjalla One', sans-serif;
 font-family: 'League Spartan', sans-serif; */
 
-.hotlines{
+.hotline-texts{
+    padding: 40px 0 40px 0;
     background-color: antiquewhite;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-.hotline-texts{
-    padding: 40px 0 40px 0
 }
 
 .hotline-texts h1{
@@ -25,4 +23,14 @@ font-family: 'League Spartan', sans-serif; */
 
 .hotline-texts a{
     text-decoration: none ;
+}
+
+@media (max-width:600px){
+    .hotline-texts{
+    padding: 30px 30px 30px 30px
+    }
+
+    .hotline-texts h1{
+        text-align: center;
+        }
 }

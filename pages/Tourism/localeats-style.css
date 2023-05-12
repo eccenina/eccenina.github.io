@@ -15,13 +15,14 @@
 }
 .foods {
     background-color: orange;
-    height: 90vh;
+    height: 85vh;
     zoom: 78%;
     overflow: hidden;
+ 
 }
 .slide-container {
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -30,7 +31,7 @@
 .img-slider {
     width: 100%;
     height: 600px;
-    position: absolute;
+    position: relative;
     display: flex;
     left: 0;
     align-items: center;
@@ -146,7 +147,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text2{
     opacity: 0;
@@ -155,7 +156,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text3{
     opacity: 0;
@@ -164,7 +165,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text4{
     opacity: 0;
@@ -173,7 +174,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text5{
     opacity: 0;
@@ -182,7 +183,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text6{
     opacity: 0;
@@ -191,7 +192,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text7{
     opacity: 0;
@@ -200,7 +201,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text8{
     opacity: 0;
@@ -209,7 +210,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .text9{
     opacity: 0;
@@ -218,7 +219,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 
