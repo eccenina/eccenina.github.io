@@ -135,6 +135,63 @@
 #slider-span8:target ~ .img-slider{left: -650px;}
 #slider-span9:target ~ .img-slider{left: -850px;}
 
+#slider-span1:target ~ .img-slider .slides-div #img1{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span2:target ~ .img-slider .slides-div #img2{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span3:target ~ .img-slider .slides-div #img3{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span4:target ~ .img-slider .slides-div #img4{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span5:target ~ .img-slider .slides-div #img5{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span6:target ~ .img-slider .slides-div #img6{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span7:target ~ .img-slider .slides-div #img7{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span8:target ~ .img-slider .slides-div #img8{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+#slider-span9:target ~ .img-slider .slides-div #img9{
+    background-image: linear-gradient(#da6d42, #085589);
+}
+
+
+#slider-span1:target ~ .img-slider .a1 {
+    color: white;
+}
+#slider-span2:target ~ .img-slider .a2 {
+    color: white;
+}
+#slider-span3:target ~ .img-slider .a3 {
+    color: white;
+}
+#slider-span4:target ~ .img-slider .a4 {
+    color: white;
+}
+#slider-span5:target ~ .img-slider .a5 {
+    color: white;
+}
+#slider-span6:target ~ .img-slider .a6 {
+    color: white;
+}
+#slider-span7:target ~ .img-slider .a7 {
+    color: white;
+}
+#slider-span8:target ~ .img-slider .a8 {
+    color: white;
+}
+#slider-span9:target ~ .img-slider .a9 {
+    color: white;
+}
+
 
 /* text opacity */
 .text1{
@@ -145,6 +202,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text2{
     opacity: 0;
@@ -154,6 +212,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text3{
     opacity: 0;
@@ -163,6 +222,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text4{
     opacity: 0;
@@ -172,6 +232,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text5{
     opacity: 0;
@@ -181,6 +242,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text6{
     opacity: 0;
@@ -190,6 +252,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text7{
     opacity: 0;
@@ -199,6 +262,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text8{
     opacity: 0;
@@ -208,6 +272,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 .text9{
     opacity: 0;
@@ -217,6 +282,7 @@
     margin-right: 20px;
     margin-top: 20px;
     font-size: 23px;
+    color: white;
 }
 
 
@@ -249,12 +315,13 @@
     opacity: 1;
 }
 
-.down-text{
-    
-}
-.down-text p{
-    margin-left: 35%;
 
+.down-text p{
+    margin-left: 41%;
+    margin-bottom: 7px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
 }
 
 
@@ -284,7 +351,13 @@
 #slider-span8:target ~ .img-slider{left: -1790px;}
 #slider-span9:target ~ .img-slider{left: -2070px;}
 
-
+.down-text p{
+    margin-left: 37%;
+    margin-bottom: 6px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
+}
 
 
 .footer{
