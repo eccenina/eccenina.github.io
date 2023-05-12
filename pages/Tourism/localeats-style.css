@@ -15,13 +15,13 @@
 }
 .foods {
     background-color: orange;
-    height: 85vh;
+    height: 90vh;
     zoom: 78%;
     overflow: hidden;
 }
 .slide-container {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -60,9 +60,6 @@
 }
 .slides-div:hover{
     filter: brightness(80%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 260px;
-    height: 390px;
 }
 
 #slider-span1:target ~ .img-slider #img1,

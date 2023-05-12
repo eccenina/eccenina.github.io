@@ -8,6 +8,10 @@ font-family: 'League Spartan', sans-serif; */
     align-items: center;
 }
 
+.hotline-texts{
+    padding: 40px 0 40px 0
+}
+
 .hotline-texts h1{
     font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
@@ -19,8 +23,6 @@ font-family: 'League Spartan', sans-serif; */
     font-size: 20px;
 }
 
-.hotlines img{
-    width: 30%;
-    height: auto;
-    position: sticky
+.hotline-texts a{
+    text-decoration: none ;
 }
