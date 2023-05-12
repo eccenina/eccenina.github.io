@@ -104,6 +104,9 @@
 }
 
 @media (max-width:412px){
+    @viewport{
+        width: 600px;
+    }
     .history-content{
         display:block;
     }

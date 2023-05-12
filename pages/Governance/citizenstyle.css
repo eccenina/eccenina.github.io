@@ -85,6 +85,9 @@ font-family: 'League Spartan', sans-serif; */
 
 /* RESPONSIVENESS */
 @media (max-width: 600px){
+    @viewport{
+        width: 600px;
+    }
 
     /* CONTENT TITLE */
 

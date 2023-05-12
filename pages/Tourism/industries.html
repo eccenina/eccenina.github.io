@@ -86,7 +86,72 @@
             margin: 0 10% 0 10%;
             width: 600px;
         }
-
+        @media screen and (max-width: 600px) {
+            @viewport{
+                width: 600px;
+            }
+            .ind-container{
+                overflow: hidden;
+                background-color: orange;
+                flex-direction: column;
+                display: flex;
+                min-height: 600px;
+                align-items: center;
+                justify-content: space-around;
+                text-align: justify;
+                text-align-last: left;
+                font-family: 'Fjalla One', sans-serif;
+                padding: 30px;
+            }
+            .ind-container h1{
+                margin: 0 20px 0 20px;
+                font-size: 30px;
+            }
+            .ind-container .img{
+                order: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 20px;
+                transition: 0.3s all ease-out;
+                margin: 10px;
+                background-size: cover;
+            }
+            .ind-container .img h1{
+                
+                justify-content: center;
+                padding: 20px;
+                margin: 0 10% 0 10%;
+            }
+            .ind-content{
+                order: 2;
+            }
+            .ind-content p{
+                font-family: 'League Spartan', sans-serif;
+                font-size: 20px;
+                color:black;
+                padding: 30px;
+                background-color: white;
+            }
+            .ind-content h1{
+                font-family: 'League Spartan';
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px 0 20px 0;
+                border-radius: 25px 25px 0 0;
+                background-color: #085589;
+                text-align-last:center;
+                color: white;
+            }
+            .img:hover{
+                transform: scale(1.1);
+            }
+        }
     </style>
     <body>
         <header>

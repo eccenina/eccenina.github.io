@@ -135,6 +135,9 @@
 /* RESPONSIVENESS */
 
 @media (max-width:600px){
+    @viewport{
+        width: 600px;
+    }
     
     /* GEOGRAPHIC LCOATION AND AREA */
     .geo-container{

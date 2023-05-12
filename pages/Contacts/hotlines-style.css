@@ -26,6 +26,9 @@ font-family: 'League Spartan', sans-serif; */
 }
 
 @media (max-width:600px){
+    @viewport{
+        width: 600px;
+    }
     .hotline-texts{
     padding: 30px 30px 30px 30px
     }

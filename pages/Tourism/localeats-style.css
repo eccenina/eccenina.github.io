@@ -255,6 +255,9 @@
 
 /* Responsiveness */
 @media (max-width:600px){
+    @viewport{
+        width: 600px;
+    }
 
 .foods {
     background-color: orange;
