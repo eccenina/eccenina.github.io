@@ -316,7 +316,7 @@
 }
 
 
-.down-text p{
+. p{
     margin-left: 41%;
     margin-bottom: 7px;
     color: white;
@@ -351,7 +351,7 @@
 #slider-span8:target ~ .img-slider{left: -1790px;}
 #slider-span9:target ~ .img-slider{left: -2070px;}
 
-.down-text p{
+. p{
     margin-left: 37%;
     margin-bottom: 6px;
     color: white;
