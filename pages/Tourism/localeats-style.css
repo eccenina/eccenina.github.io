@@ -1,3 +1,19 @@
+.title {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+.title h2{
+    font-size: 60px;
+    margin-top: 15px;
+}
+.title p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
 .slides-div h1 {
     font-size: medium;
     margin-left: 20px;
