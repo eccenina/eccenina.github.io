@@ -24,6 +24,8 @@
     height: 85vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    position: static;
 }
 .img-slider {
     width: 100%;
@@ -316,13 +318,7 @@
 }
 
 
-. p{
-    margin-left: 41%;
-    margin-bottom: 7px;
-    color: white;
-    font-family: 'League Spartan', sans-serif;
-    position: relative;
-}
+
 
 
 /* Responsiveness */
@@ -334,30 +330,24 @@
 .foods {
     background-color: orange;
     height: 85vh;
-    zoom: 60%;
+    zoom: 45%;
     overflow: hidden;
 }
 .slides-div:hover{
     filter: brightness(100%);
 }
 
-#slider-span1:target ~ .img-slider{left:170px;}
-#slider-span2:target ~ .img-slider{left: -110px;}
-#slider-span3:target ~ .img-slider{left: -390px;}
-#slider-span4:target ~ .img-slider{left: -670px;}
-#slider-span5:target ~ .img-slider{left: -950px;}
-#slider-span6:target ~ .img-slider{left: -1230px;}
-#slider-span7:target ~ .img-slider{left: -1510px;}
-#slider-span8:target ~ .img-slider{left: -1790px;}
-#slider-span9:target ~ .img-slider{left: -2070px;}
+#slider-span1:target ~ .img-slider{left:170px; top: 53vh;}
+#slider-span2:target ~ .img-slider{left: -110px; top: 53vh;}
+#slider-span3:target ~ .img-slider{left: -390px; top: 53vh;}
+#slider-span4:target ~ .img-slider{left: -670px; top: 53vh;}
+#slider-span5:target ~ .img-slider{left: -950px; top: 53vh;}
+#slider-span6:target ~ .img-slider{left: -1230px; top: 53vh;}
+#slider-span7:target ~ .img-slider{left: -1510px; top: 53vh;}
+#slider-span8:target ~ .img-slider{left: -1790px; top: 53vh;}
+#slider-span9:target ~ .img-slider{left: -2070px; top: 53vh;}
 
-. p{
-    margin-left: 37%;
-    margin-bottom: 6px;
-    color: white;
-    font-family: 'League Spartan', sans-serif;
-    position: relative;
-}
+
 
 
 .footer{
@@ -394,5 +384,15 @@
     font-size: 10px;
     margin-top: 20px;
 }
+
+.slide-container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    position:absolute;
+}
+
+
 
 }

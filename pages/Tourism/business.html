@@ -196,7 +196,7 @@
                 <div class="img-slider">
                     <div class="slides-div" id="slide-1">
                         <div class="img" id="img1">
-                            <h1>Step 1</h1>
+                            <h1>1</h1>
                             <p id="#slider-span1" class="text1">This text will appear when the box is clicked!
                                 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                              </p>           
@@ -205,7 +205,7 @@
                     </div>
                     <div class="slides-div" id="slide-2">
                         <div class="img" id="img2">
-                            <h1>Step 2</h1>
+                            <h1>2</h1>
                             <p id="#slider-span2" class="text2">This text will appear when the box is clicked!
                                 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                              </p> 
@@ -214,7 +214,7 @@
                     </div>
                     <div class="slides-div" id="slide-3">
                         <div class="img" id="img3">
-                            <h1>Step 3</h1>
+                            <h1>3</h1>
                             <p id="#slider-span3" class="text3">This text will appear when the box is clicked!
                                 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                         </div>
@@ -233,11 +233,19 @@
             }
 
     .slides-div h1 {
-    font-size: medium;
-    margin-left: 20px;
-    margin-top: 50px;
-    font-size: 70px;
+    font-size: large;
+
+
     font-family: 'League Spartan', sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+.slides-div p {
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 .slides-div img {
     width: 100%;
@@ -324,6 +332,72 @@
     background-image: linear-gradient(#da6d42, #085589);
 }
 
+
+@media (max-width:600px){
+    @viewport{
+        width: 600px;
+    }
+
+    .slides-div h1 {
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    position: absolute;
+}
+
+    .slides-div {
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    background-color: white;
+    text-align: left;
+    border-radius: 25px 0 25px 0;
+    margin-left: 10px;
+}
+
+.img {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    transition: .5s;
+    filter: saturate(10%);
+}
+.button {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    transition: .5s;
+}
+.slides-div:hover{
+    filter: brightness(100%);
+}
+
+#slider-span1:target ~ .img-slider #img1,
+#slider-span1:target ~ .img-slider #button-1 {
+    width: 300px;
+    height: 448px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span2:target ~ .img-slider #img2,
+#slider-span2:target ~ .img-slider #button-2 {
+    width: 300px;
+    height: 448px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+#slider-span3:target ~ .img-slider #img3,
+#slider-span3:target ~ .img-slider #button-3 {
+    width: 300px;
+    height: 448px;
+    border-radius: 25px 0 25px 0;
+    filter: saturate(100%);
+}
+
+}
 
 
 
